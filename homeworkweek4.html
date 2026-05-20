@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sign Up Form</title>
+<style>
+    body {
+        background-color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        width: 400px;
+        margin: 30px auto;
+        border: 2px solid #ccc;
+    }
+
+    .header {
+        background-color: #d68600;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .form-box {
+        background-color: #1f2333;
+        padding: 15px;
+        color: #e6e600;
+    }
+
+    label {
+        display: inline-block;
+        width: 130px;
+        margin-bottom: 10px;
+    }
+
+    input, select {
+        width: 180px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .gender input {
+        width: auto;
+    }
+
+    .footer {
+        background-color: #d68600;
+        padding: 10px;
+        text-align: right;
+    }
+
+    .btn-submit {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+    }
+
+    .btn-cancel {
+        background-color: #e74c3c;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">Sign Up</div>
+
+    <div class="form-box">
+        <form>
+            <label>First Name</label>
+            <input type="text" placeholder="Enter First Name"><br>
+
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter Last Name"><br>
+
+            <label>Date of Birth</label>
+            <select><option>Date</option></select>
+            <select><option>Month</option></select>
+            <select><option>Year</option></select><br>
+
+            <label>Gender</label>
+            <span class="gender">
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </span><br>
+
+            <label>Country</label>
+            <select><option>Country</option></select><br>
+
+            <label>E-mail</label>
+            <input type="email" placeholder="Enter E-mail"><br>
+
+            <label>Phone</label>
+            <input type="text" placeholder="Enter Phone"><br>
+
+            <label>Password</label>
+            <input type="password"><br>
+
+            <label>Confirm Password</label>
+            <input type="password"><br>
+
+            <input type="checkbox"> I Agree to the Terms of use
+        </form>
+    </div>
+
+    <div class="footer">
+        <button class="btn-submit">Submit</button>
+        <button class="btn-cancel">Cancel</button>
+    </div>
+</div>
+
+</body>
+</html>

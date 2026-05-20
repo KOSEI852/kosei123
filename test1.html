@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+        }
+        .container {
+            width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 6px;
+            margin-top: 5px;
+        }
+        .inline {
+            width: auto;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            background: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<table class="container">
+    <h2>Student Registration Form</h2>
+
+    <tr>
+        <label>Roll No:</label>
+        <input type="text">
+
+        <label>Student Name:</label>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+
+        <label>Father's Name:</label>
+        <input type="text">
+
+        <label>Date of Birth:</label>
+        <input type="date">
+
+        <label>Mobile No:</label>
+        <input type="tel" placeholder="">
+
+        <label>Email ID:</label>
+        <input type="email">
+
+        <label>Password:</label>
+        <input type="password">
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" class="inline"> Male
+        <input type="radio" name="gender" class="inline"> Female
+
+        <label>Department:</label>
+        <input type="checkbox" class="inline"> CSE
+        <input type="checkbox" class="inline"> IT
+        <input type="checkbox" class="inline"> ECE
+        <input type="checkbox" class="inline"> Civil
+        <input type="checkbox" class="inline"> Mech
+
+        <label>Course:</label>
+        <select>
+            <option>Select Current Course</option>
+            <option>Bachelor</option>
+            <option>Master</option>
+            <option>Diploma</option>
+        </select>
+
+        <label>Student Photo:</label>
+        <input type="file">
+
+        <label>City:</label>
+        <input type="text">
+
+        <label>Address:</label>
+        <textarea rows="3"></textarea>
+
+        <button type="submit">Register</button>
+    </tr>
+</table>
+
+</body>
+</html>

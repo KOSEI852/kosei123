@@ -1,0 +1,169 @@
+body{
+     min-height: 100vh;
+  background: linear-gradient(270deg, #0a3910, #1a1a1b, #16095f);
+  background-size: 600% 600%;
+  animation: gradientMove 10s ease infinite;
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: transparent;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    border-radius: 20px;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem;
+    max-width: 1600px;
+}
+.navabr-logo{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+.navbar-container .navbar-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 3px 20px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all 0.7s ease;
+    white-space: nowrap;
+}
+.navbar-container .navbar-menu li a:hover{
+    color: #162530;
+    background: rgba(188, 212, 229, 0.8);
+    border: 2px solid #fff;
+}
+.navbar-toggle{
+    background: transparent;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: #fff;
+    transition: all 0.3 ease-in-out;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+    cursor: pointer;
+}
+.Wellcome h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    margin-top: 30px;
+    color: green;
+}
+.Wellcome h2{
+    font-size: large;
+    gap: 50px;
+    color: rgb(211, 216, 211);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.back-card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background: #2db744;
+    color: #333;
+    background-image: url(https://wallpapercave.com/wp/wp9262821.jpg);
+    transform: rotateY(180deg)
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 250px;
+    margin-left: 65px;
+    padding: 10px;
+    border: #491cd1;
+    background-color: #e8e6ee;
+    border-radius: 8px;
+    margin-right: 60px;
+}
+.ssss{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #d3d5d6;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.pppp{
+    color: #e8e6ee;
+    text-justify: auto;
+}
+.maintainercard2{
+    cursor: pointer;
+    position: relative;
+    width: 250px;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 650px;
+    margin-top: -320px;
+}
+.maintainercard3{
+    cursor: pointer;
+    position: relative;
+    width: 250px;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1000px;
+    margin-top: -320px;
+}
+.abc{
+    font-size: 4rem;
+    margin-left: 490px;
+    color: #e8e6ee;
+}
+.container6{
+    height: 320px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

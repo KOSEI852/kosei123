@@ -1,0 +1,125 @@
+body{
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* container */
+.container{
+    background-color: skyblue;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+/* menu */
+.meun{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.meun li{
+    list-style: none;
+}
+.meun li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.meun li a:hover{
+    background-color: plum;
+    width: 100%;
+    padding: 5px;
+    border: 5px;
+    color: mediumaquamarine;
+}
+/* log */
+.logo{
+    margin-right: auto;
+}
+.logo img{
+    width: 35%;
+    height: 75%;
+    border-radius: 45px;
+    padding: 15px;
+}
+/* search */
+input{
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+}
+/* banner */
+.banner img{
+    width: 100%;
+    margin-top: 10px;
+}
+/* category */
+.Categories{
+    display: flex;
+    gap: 25px;
+}
+.Categories .card{
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px black;
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+}
+.Categories  .card img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin-left: 40px;
+}
+.Categories .card p{
+    text-align: center;
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.product .card{
+    width: 25%;
+    height:480px;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+   
+
+}
+.product .card img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin-left: 100px;
+    padding: 25px;
+    border-radius: 5px;
+}
+.product .card h2{
+    text-align: center;
+    color: purple;
+    font-size: 20px;
+}
+.product .card h3{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.product .card p{
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+}
+.product .card .li {
+    margin-left: 100px;
+    color: gold;
+    padding: 5px;
+}
+button{
+    margin-left: 130px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+}

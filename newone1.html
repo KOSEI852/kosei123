@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up Form</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 400px;
+        margin: auto;
+        border: 2px solid #ccc;
+    }
+
+    th {
+        background-color: #d68600;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    td {
+        padding: 10px;
+        background-color: #1f2333;
+        color: #e6e600;
+    }
+
+    .footer {
+        background-color: #d68600;
+        text-align: right;
+    }
+
+    input, select {
+        padding: 5px;
+    }
+
+    .btn-submit {
+        background-color: green;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    .btn-cancel {
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+    }
+</style>
+</head>
+
+<body>
+
+<table>
+    <tr>
+        <th colspan="2">Sign Up</th>
+    </tr>
+
+    <tr>
+        <td>First Name</td>
+        <td><input type="text"></td>
+    </tr>
+
+    <tr>
+        <td>Last Name</td>
+        <td><input type="text"></td>
+    </tr>
+
+    <tr>
+        <td>Date of Birth</td>
+        <td>
+            <select><option>Date</option></select>
+            <select><option>Month</option></select>
+            <select><option>Year</option></select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+        </td>
+    </tr>
+
+    <tr>
+        <td>Country</td>
+        <td><select><option>Country</option></select></td>
+    </tr>
+
+    <tr>
+        <td>Email</td>
+        <td><input type="email"></td>
+    </tr>
+
+    <tr>
+        <td>Phone</td>
+        <td><input type="text"></td>
+    </tr>
+
+    <tr>
+        <td>Password</td>
+        <td><input type="password"></td>
+    </tr>
+
+    <tr>
+        <td>Confirm Password</td>
+        <td><input type="password"></td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <input type="checkbox"> I Agree to Terms of Use
+        </td>
+    </tr>
+
+    <tr class="footer">
+        <td colspan="2">
+            <button class="btn-submit">Submit</button>
+            <button class="btn-cancel">Cancel</button>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
