@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Kosei pro</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <img src="https://www.pngall.com/wp-content/uploads/17/Facebook-Logo-Circle-Creation-PNG.png"alt="">
+                 <br>
+            <label for="">Email</label>
+            <input type="text" placeholder="Enter email"> <br>
+            <label for="">Password</label>
+            <input type="password" placeholder="Enter passwork">
+
+            <div class="checkbox">
+                <label for="">show password</label>
+               <input type="checkbox">
+            </div>
+             <button>login</button>
+            <p>Forget Username / password?</p>
+            <p>Don't have an account? Sign up</p>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
